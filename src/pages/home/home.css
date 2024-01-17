@@ -1,0 +1,687 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+}
+.navbar a, .navbar .navlinks a{
+    color: white;
+}
+.apresentation{
+    background-image: url(../../assets/images/backgroud-section1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 50px;
+    font-size: 22px;
+    color: #FFFF;
+    position: relative;
+}
+.apresentation h1{
+    font-size: 72px;
+    width: 35vw;
+}
+.apresentation p{
+    font-size: 28px;
+    width: 25vw;
+}
+.header-container{
+    display: flex;
+    color: #FFFF;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    
+}
+a{
+    text-decoration: none;
+    color: #FFFF;
+}
+.apresentation-section{
+  
+    min-width: 50vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn-apresentation{
+    position: absolute;
+    padding: 10px 40px;
+    background-color: #F54A3B;
+    border-radius: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+/* our chefs */
+.about-chefs{
+    height: 77vh;
+    padding: 30px 0;
+    text-align: center;
+    position: relative;
+    background-color: #F6EEDF;
+    color: #F65F51;
+}
+.about-chefs h2{
+    font-size: 72px;
+    color: #F43527;
+}
+.about-chefs img{
+    width: 35vh;
+    height: 35vh;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.photo-chefs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    padding: 30px;
+    
+}
+/* about burger */
+.about-burguer{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30vh;
+    background-color: #F64B3C;
+    color: #FFFF;
+    padding: 10px;
+}
+.about-burguer img{
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.about-burguer h2{
+    font-size: 90px;
+}
+.about-burguer p {
+    font-size: 22px;
+}
+.btn-white{
+    position: absolute;
+    padding: 10px 40px;
+    background-color: #FFFF;
+    color: #F43527;
+    border-radius: 22px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/*Big burger*/
+.big-burguer{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 30vh;
+    background-color: #F6EEDF;
+    color: #F43527;
+}
+.big-burguer img{
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.big-burguer h2{
+    font-size: 100px;
+}
+.big-burguer p {
+    font-size: 22px;
+}
+/*Statistics*/
+.section-statistics{
+    text-align: center;
+    background-color: #F64B3C;
+    color: #FFFF;
+    padding: 38px;
+}
+.section-statistics h2{
+font-size: 82px;
+}
+.section-statistics p{
+font-size: 19px;
+}
+.stats-number-info{
+    border: 1px solid white;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.stats-number{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+/*PACKAGE*/
+.package h2{
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 52px;
+}
+.package{
+    background-color: #F6EEDF;
+    height: 85vh;
+}
+
+.package-banner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #FFFF;
+    padding: 40px;
+
+}
+.package-banner img{
+    width: 75px;
+}
+.package-inner{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    text-align: center;
+    
+}
+.package-inner img{
+    margin: 0 auto;
+}
+.package-btn{
+    width: 160px;
+    text-align: center;
+    padding: 10px;
+    background-color: #F54A3B;
+    border-radius: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+.package-btn:hover{
+    opacity: 1;
+}
+/*chef words*/
+.chef-words{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFF;
+    background: linear-gradient(#f435278c, #f54b3bb9), url(../../assets/images/background-chef-words.jpg) ;
+    background-size: cover;
+    background-position: center;
+
+}
+.chef-words p{
+    font-size: 24px;
+    width: 1200px;
+}
+.chef-words h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+/*UPDATES*/
+.updates{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #F6EEDF;
+    color: #F54A3B;
+}
+.updates h2{
+    font-size: 62px;
+}
+.updates p{
+    font-size: 22px;
+    
+    
+}
+.updates input[type=email]{
+    width: 550px;
+    height: 40px;
+    border-radius: 22px 0 0 22px ;
+    border: none;
+    padding: 10px;
+    margin: 0;
+}
+.updates input[type=submit]{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 0px 22px 22px 0 ;
+    background-color: #F54A3B;
+    font-size: 18px;
+    margin: 0;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+
+
+/*responsivity*/
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* Tamanho da fonte base */
+    }
+
+    .apresentation {
+        padding: 20px;
+        width: 100vw;
+        height: 70vh;
+    }
+
+    .apresentation h1 {
+        font-size: 40px;
+        width: 80vw;
+    }
+
+    .apresentation p {
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    .apresentation-section {
+        min-width: 80vw;
+    }
+
+/*About chefs*/
+    .about-chefs{
+        padding: 0px;
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    .about-chefs h2{
+        font-size: 40px;
+        width: 80vw;
+        color: #F43527;
+        margin: 0 auto;
+    }
+    .about-chefs img{
+        width: 15vh;
+        height: 15vh;
+        border-radius: 50%;
+        object-fit: cover;
+        
+    }
+    .photo-chefs{
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+   
+
+    /*about burger*/
+    .about-burguer{
+        padding: 0px;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+    .about-burguer img{
+        width: 40vh;
+        height: 40vh;
+        border-radius: 20%;
+        object-fit: cover;
+    }
+    .about-burguer h2{
+        font-size: 40px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .about-burguer p {
+        font-size: 18px;
+        width: 80vw;
+    }
+    /*big burger*/
+    .big-burguer{
+        padding: 0px;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .big-burguer img{
+        width: 40vh;
+        height: 40vh;
+        border-radius: 20%;
+        object-fit: cover;
+        margin-top: 80px;
+    }
+    
+    .big-burguer h2{
+        font-size: 40px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .big-burguer p {
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    /*Statistics*/
+.section-statistics{
+    padding: 0px;
+    width: 100vw;
+    height: 110vh;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+.section-statistics h2{
+    font-size: 36px;
+        width: 80vw;
+        margin: 0 auto;
+        
+}
+.section-statistics p{
+    font-size: 12px;
+    width: 80vw;
+}
+.stats-number-info{
+   align-items: center;
+}
+.stats-number{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*PACKAGE*/
+.package{
+display: none;
+}
+/*chef-words*/
+.chef-words{
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+.chef-words p{
+    font-size: 18px;
+    width: 80vw;
+}
+.chef-words h2{
+    font-size: 35px;
+    width: 80vw;
+    margin: 0 auto;
+}
+  
+/*UPDATES*/
+.updates{
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+}
+.updates h2{
+    font-size: 35px;
+    width: 80vw;
+    margin: 0 auto;
+}
+.updates p{
+   
+    font-size: 18px;
+    width: 80vw;
+    
+}
+.updates input[type=email]{
+   width: 200px;
+   height: 60px;
+}
+.updates input[type=submit]{
+    width: 150px;
+    height: 60px;
+    color: #FFFF;
+}
+ 
+}
+
+
+
+/* Responsividade para tablet e notebook */
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    .apresentation {
+        padding: 20px;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .apresentation h1 {
+        font-size: 40px;
+        width: 80vw;
+    }
+
+    .apresentation p {
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    .apresentation-section {
+        min-width: 80vw;
+    }
+
+    /* About chefs */
+    .about-chefs {
+        padding: 0;
+        width: 100%;
+        height: 110vh;
+    }
+
+    .about-chefs h2 {
+        font-size: 40px;
+        width: 80vw;
+        color: #F43527;
+        margin: 0 auto;
+    }
+
+    .about-chefs img {
+        width: 15vh;
+        height: 15vh;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .photo-chefs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* About burger */
+    .about-burguer {
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .about-burguer img {
+        width: 40vh;
+        height: 40vh;
+        border-radius: 20%;
+        object-fit: cover;
+    }
+
+    .about-burguer h2 {
+        font-size: 40px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .about-burguer p {
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    /* Big burger */
+    .big-burguer {
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .big-burguer img {
+        width: 40vh;
+        height: 40vh;
+        border-radius: 20%;
+        object-fit: cover;
+        margin-top: 80px;
+    }
+
+    .big-burguer h2 {
+        font-size: 40px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .big-burguer p {
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    /* Statistics */
+    .section-statistics {
+        padding: 0;
+        width: 100%;
+        height: 110vh;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-statistics h2 {
+        font-size: 40px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .section-statistics p {
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    .stats-number-info {
+        align-items: center;
+    }
+
+    .stats-number {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Package */
+    .package {
+        display: none;
+    }
+
+    /* Chef words */
+    .chef-words {
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chef-words p {
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    .chef-words h2 {
+        font-size: 35px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    /* Updates */
+    .updates {
+        padding: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .updates h2 {
+        font-size: 35px;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .updates p {
+        font-size: 18px;
+        width: 80vw;
+    }
+
+    .updates input[type=email] {
+        width: 200px;
+        height: 60px;
+    }
+
+    .updates input[type=submit] {
+        width: 150px;
+        height: 60px;
+        color: #FFFF;
+    }
+}
+

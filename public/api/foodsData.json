@@ -1,0 +1,39 @@
+
+[
+    {
+        "id": 1,
+        "name": "Cheese Egg",
+        "price": 25.99,
+        "img": "./assets/images/burger_img/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cheese Tudo",
+        "price": 25.99,
+        "img": "./assets/images/burger_img/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Combo Burger mais batata",
+        "price": 32.99,
+        "img": "./assets/images/burger_img/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Chesse Tudo Duplo",
+        "price": 49.99,
+        "img": "./assets/images/burger_img/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Chesse Tudo Duplo Hallowen",
+        "price": 31.99,
+        "img": "./assets/images/burger_img/5.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Combo Burger mais batata frita",
+        "price": 39.99,
+        "img": "./assets/images/burger_img/6.jpg"
+    }
+]

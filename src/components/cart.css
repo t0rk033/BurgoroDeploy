@@ -1,0 +1,57 @@
+.aside-container{
+    background-color: #FFFF;
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 8888;
+    padding: 40px;
+    text-align: center;
+    border-radius: 22px;
+    box-shadow: 15px 6px 7px rgba(0, 0, 0, 0.304),-15px -6px 7px rgba(0, 0, 0, 0.304);
+
+}
+
+table.table-product{
+   border: none;
+   text-align: center;
+}
+table input{
+   text-align: center;
+   border: none;
+   width: 5vh;
+}
+table button{
+   border: none;
+   padding: 15px 25px ;
+   border-radius: 22px;
+   background-color: #F43527;
+   color: white;
+   cursor: pointer;
+   transition: .5s;
+}
+.buy-btn{
+   border: none;
+   padding: 15px 25px ;
+   border-radius: 22px;
+   background-color: #F43527;
+   color: white;
+   cursor: pointer;
+   transition: .5s;
+}
+table button:hover{
+   background-color: #c12f24;
+}
+.buy-btn:hover{
+   background-color: #c12f24;
+}
+
+@media screen and (max-width: 768px){
+   .aside-container{
+      height: 100vh;
+      width: 100vw;
+      padding: 20px;
+   }
+   table button{
+      padding: 8px 12px;
+   }
+}

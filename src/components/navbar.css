@@ -1,0 +1,82 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-right: 50px;
+    
+}
+.navlinks{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.navlinks a, .logo{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .6s;
+    cursor: pointer;
+}
+.navlinks a:hover,.logo:hover{
+    color: #F54A3B;
+   
+}
+.logo{
+    font-size: 2rem;
+}
+.menu-btn{
+    display: none;
+}
+.closeMenuBtn{
+    display: none;
+}
+/*mobile*/
+@media screen and (max-width: 768px){
+   .navlinks{
+    display: none;
+   } 
+   .menu-btn{
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: block;
+    
+   }
+   .activeMenu{
+    display: block;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 8888; /* Ajuste o valor conforme necessário para garantir sobreposição */
+
+   }
+   .rightSide .activeMenu li a{
+    color: black;
+    font-size: 28px;
+    
+   }
+   .closeMenuBtn{
+    display: block;
+    z-index: 9999;
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 22px;
+    font-weight: bold;
+   }
+}
