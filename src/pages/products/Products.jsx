@@ -30,7 +30,7 @@ calculateTotal();
 }
 
 const fetchData=()=>{
-  fetch('https://burgoro-deploy.vercel.app/api/foodsData.json').then(res=>res.json()).then(data=>{
+  fetch('https://burgoro-deploy-sczs.vercel.app/api/foodsData.json').then(res=>res.json()).then(data=>{
     setFoods(data)
   }).catch(e=> console.log(e.message))
 }
